@@ -97,7 +97,7 @@ h3 {
 .slogan {
   width: 250px;
   margin-left: 150px;
-  margin-top: 340px;
+  margin-top: 290px;
 }
 
 h2 {
@@ -106,49 +106,43 @@ h2 {
   color: #D70D0F;
 }
 
-.search {
-  width: 100%;
-  position: relative;
+.search_box {
+  margin-top: 20px;
+  margin-left: 660px;
+  opacity: 60%;
   display: flex;
 }
 
-.searchTerm {
-  width: 100%;
-  border: 3px solid #D9D9D9;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #D9D9D9;
+.search {
+  width: 450px;
+  height: 50px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #D9D9D9;
+  border: none;
+  padding: 10px 20px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 
-.searchTerm:focus {
-  color: black;
+.search::placeholder {
+  opacity: 50%;
+  font-size: 15px;
 }
 
 .searchButton {
   width: 40px;
-  height: 36px;
+  height: 50px;
   border: none;
   background: #D9D9D9;
   text-align: center;
   color: #D9D9D9;
-  border-radius: 0 5px 5px 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   cursor: pointer;
   font-size: 20px;
-}
-
-.wrap {
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #D9D9D9;
-  border-radius: 20px;
-}
-
-.img_lupa {
-  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px 0px 0px;
 }
