@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Vilane Regular';
+  src: url(/assets/fonts/Vilane\ Regular.woff) format('woff');
+  src: url(/assets/fonts/Vilane+Regular.woff2) format('woff2');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background-color: #FBF8F4;
+}
+
+.navbar4_container {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.bar_prod {
+  margin-left: 725px;
+  margin-top: -40px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bar_prod a {
+  color: #D70D0F;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bar_marca {
+  margin-left: 868px;
+  margin-top: -22px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bar_marca a {
+  color: #D70D0F;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bar_combo {
+  margin-left: 984px;
+  margin-top: -22px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bar_combo a {
+  color: #D70D0F;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cart {
+  margin-top: -30px;
+  margin-left: 1750px;
+}
+
+.login {
+  margin-top: -30px;
+  margin-left: 1800px;
+}
+
+.name_center {
+  margin-left: 800px;
+  margin-top: 250px;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: 'Vilane Regular', sans-serif;
+  font-weight: 200;
+  color: #FFC600;
+}
+
+.sname_center {
+  margin-left: 800px;
+  margin-top: -25px;
+}
+
+h3 {
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  color: #D70D0F;
+}
+
+.slogan {
+  width: 250px;
+  margin-left: 150px;
+  margin-top: 340px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #D70D0F;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #D9D9D9;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #D9D9D9;
+}
+
+.searchTerm:focus {
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: none;
+  background: #D9D9D9;
+  text-align: center;
+  color: #D9D9D9;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #D9D9D9;
+  border-radius: 20px;
+}
+
+.img_lupa {
+  width: 20px;
+}
