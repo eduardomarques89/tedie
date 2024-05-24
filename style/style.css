@@ -273,3 +273,73 @@ hr {
   margin-top: 100px;
   /* margin-bottom: 100px; */
 }
+
+.divisor-final {
+  margin: 0px 400px;
+  border: 0;
+  border-top: 1px solid #D70D0F;
+}
+
+.logo {
+  margin-left: 200px;
+  margin-top: 90px;
+}
+
+.enterprise {
+  margin-left: 600px;
+}
+
+.enterprise-text {
+  margin-top: -230px;
+  font-size: 30px;
+  font-family: 'Vilane Regular', sans-serif;
+  color: #D70D0F;
+  font-weight: 200;
+}
+
+.aboutus {
+  text-decoration: none;
+}
+
+.text-aboutus {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 26px;
+  color: black;
+  opacity: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.icon-social {
+  margin-left: 630px;
+  margin-top: 30px;
+}
+
+.fa {
+  opacity: 50%;
+  padding-right: 25px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
+
+.info a {
+  margin: 0 10px;
+  text-decoration: none;
+  opacity: 50%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.info span {
+  margin: 0 5px;
+  color: #999;
+}
