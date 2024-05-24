@@ -146,3 +146,114 @@ h2 {
   justify-content: center;
   padding: 8px 20px 0px 0px;
 }
+
+.card {
+  background-color: #FFEFD9;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  width: 80%;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+hr {
+  margin: 0px 100px;
+}
+
+.divisor-red {
+  border: 0;
+  border-top: 1px solid #D70D0F;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 15px;
+  width: 150px;
+  color: black;
+  margin-left: 50px;
+  text-align: center;
+  font-weight: 500px;
+}
+
+.card-title h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+  margin: 15px 0;
+  font-size: 25px;
+  color: black;
+  margin-left: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.card-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFEFD9;
+  color: #D70D0F;
+  text-decoration: none;
+  border-radius: 15px;
+  margin-left: 60px;
+  border: 2px solid #D70D0F;
+  transition: background-color 0.2s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.card-back {
+  background-color: #FFF4E4;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.card-img-back {
+  width: 60%;
+  object-fit: cover;
+  margin-left: 60px;
+  margin-top: 10px
+}
+
+.card-title-back {
+  margin: 0;
+  font-size: 12px;
+  width: 150px;
+  color: black;
+  margin-left: 50px;
+  text-align: center;
+  font-weight: 500px;
+}
+
+.card-title-back h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-text-back {
+  margin: 15px 0;
+  font-size: 20px;
+  color: black;
+  margin-left: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
