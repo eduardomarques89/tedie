@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tedie: Simples Assim! - Os seus produtos favoritos</title>
 
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="style/index.css">"
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,8 @@
   <div id="navbar" class="navbar4_component">
     <div class="navbar4_container">
       <a href="index.html" aria-current="page" class="navbar4_logo-link w-nav-brand w--current">
-        <img loading="eager" width="200" navbar="tedie-image" alt="" class="navbar4_luzia"
-          src="assets/images/LogoTedie.png"><img>
+        <img loading="eager" width="200" navbar="tedie-image" alt="" class="tedie-bar"
+          src="/assets/images/LogoTedie.png">
       </a>
     </div>
     <div class="bar_prod">
@@ -33,13 +33,13 @@
       <a href="view/combo.html">COMBOS</a>
     </div>
     <div class="cart">
-      <a href="/view/cart.html">
-        <img src="assets/images/Cart.png" alt="Carrinho">
+      <a href="view/cart.html">
+        <img src="/assets/images/Cart.png" alt="Carrinho">
       </a>
     </div>
     <div class="login">
-      <a href="/view/login.html">
-        <img src="assets/images/Login.png" alt="Login">
+      <a href="view/login.html">
+        <img src="/assets/images/Login.png" alt="Login">
       </a>
     </div>
   </div>
@@ -55,9 +55,9 @@
 
     <div class="search_box">
       <input class="search" type="text" id="buscar" placeholder="Digite qual seu desejo para hoje?">
-      <button type="submit" class="searchButton">
+      <button type="button" class="searchButton" id="searchButton">
         <i class="icon_search">
-          <img src="assets/images/Earth.png" alt="Pesquisa">
+          <img src="/assets/images/Earth.png" alt="Pesquisa">
         </i>
       </button>
     </div>
@@ -69,7 +69,7 @@
   <!-- Product Card -->
   <main id="cards">
     <div class="card">
-      <img src="assets/images/biscoit.png" alt="Imagem do Card" class="card-img">
+      <img src="/assets/images/biscoit.png" alt="Imagem do Card" class="card-img">
       <hr class="divisor-red">
       <div class="card-content">
         <h2 class="card-title">Biscoito Marilan Teens Snack Bauny 80g</h2>
@@ -79,7 +79,7 @@
     </div>
 
     <div class="card-back">
-      <img src="assets/images/biscoit2.png" alt="Imagem do Card" class="card-img-back">
+      <img src="/assets/images/biscoit2.png" alt="Imagem do Card" class="card-img-back">
       <hr class="divisor-red">
       <div class="card-content">
         <h2 class="card-title-back">Biscoito Marilan Teens Snack Chocolate Branco 80g</h2>
@@ -94,7 +94,7 @@
     </div>
 
     <div class="card">
-      <img src="assets/images/biscoit.png" alt="Imagem do Card" class="card-img">
+      <img src="/assets/images/biscoit.png" alt="Imagem do Card" class="card-img">
       <hr class="divisor-red">
       <div class="card-content">
         <h2 class="card-title">Biscoito Marilan Teens Snack Bauny 80g</h2>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="card-back">
-      <img src="assets/images/biscoit2.png" alt="Imagem do Card" class="card-img-back">
+      <img src="/assets/images/biscoit2.png" alt="Imagem do Card" class="card-img-back">
       <hr class="divisor-red">
       <div class="card-content">
         <h2 class="card-title-back">Biscoito Marilan Teens Snack Chocolate Branco 80g</h2>
@@ -117,7 +117,7 @@
   <div id="final-page">
     <hr class="divisor-final">
     <div class="logo">
-      <img src="assets/images/Logo.png" alt="Logo_Tedie">
+      <img src="/assets/images/Logo.png" alt="Logo_Tedie">
     </div>
     <div class="enterprise">
       <h4 class="enterprise-text">Empresa</h4>
@@ -141,6 +141,8 @@
       <a href="#" class="terms">Termos de Uso</a>
     </div>
   </div>
+
+  <script type="text/javascript" src="js/search.js"></script>
 
 </body>
 
