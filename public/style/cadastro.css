@@ -61,7 +61,7 @@
   font-size: 25px;
   font-weight: lighter;
   font-family: 'Roboto', sans-serif;
-  color: #D70D0F;
+  color: #818181;
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@
   font-size: 25px;
   font-weight: lighter;
   font-family: 'Roboto', sans-serif;
-  color: #818181;
+  color: #D70D0F;
   opacity: 70%;
   text-decoration: none;
 }
@@ -106,25 +106,13 @@ input::placeholder {
   background-color: transparent;
   border: none;
   margin-top: -43px;
-  margin-left: 248px;
+  margin-left: 110px;
 }
 
 .button_revela i {
   color: black;
   font-size: 20px;
   cursor: pointer;
-}
-
-.forget {
-  margin-top: 10px;
-  margin-left: 170px;
-  font-size: 12px;
-  color: #818181;
-  font-family: 'Roboto', sans-serif;
-}
-
-.forget:hover {
-  text-decoration: underline;
 }
 
 .btn {
