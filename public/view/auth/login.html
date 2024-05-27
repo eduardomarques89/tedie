@@ -6,17 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  <link rel="stylesheet" href="/public/style/reset.css">
+  <link rel="stylesheet" href="/public/style/login.css">
   <link rel="stylesheet" href="/public/style/common.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <title>Tedie | Esqueceu sua senha</title>
+  <title>Acessar Tedie</title>
 </head>
 
 <body>
   <div id="navbar" class="navbar4_component">
     <div class="navbar4_container">
-      <a href="index.html" aria-current="page" class="navbar4_logo-link w-nav-brand w--current">
+      <a href="../../index.html" aria-current="page" class="navbar4_logo-link w-nav-brand w--current">
         <img loading="eager" width="200" navbar="tedie-image" alt="" class="tedie-bar"
           src="/assets/images/LogoTedie.png">
       </a>
@@ -25,19 +25,28 @@
 
   <section class="account">
     <div class="myaccount">
-      <h1>Esqueceu sua senha?</h1>
+      <h1>MINHA CONTA</h1>
     </div>
-    <p class="maccount">Digite seu e-mail</p>
+    <p class="maccount">👋 Olá novamente,</p>
 
     <div class="card">
-
+      <div class="mode">
+        <a href="login.html" class="log">LOG IN</a>
+        <span class="divider"></span>
+        <a href="cadastro.html" class="cad">CADASTRO</a>
+      </div>
       <div class="box-input">
-        <input type="email" placeholder="E-mail" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <span class="button_revela um">
+          <i id="view_passw" class="bi bi-eye-slash-fill" onclick="togglePasswordVisibility()"></i>
+        </span>
+        <a href="reset.html" class="forget">Esqueceu sua senha?</a>
       </div>
       <div class="btn">
-        <button>ENVIAR</button>
+        <button>ENTRAR</button>
       </div>
-      <a class="nao-cad" href="login.html">Voltar ao login</a>
+      <a class="nao-cad" href="cadastro.html">Não possuo cadastro</a>
       <div class="icon-logo">
         <img src="/assets/images/Logo.png" alt="logo">
       </div>
