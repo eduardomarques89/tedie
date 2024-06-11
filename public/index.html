@@ -7,12 +7,17 @@
   <title>Tedie: Simples Assim! - Os seus produtos favoritos</title>
 
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  <link rel="stylesheet" href="style/index.css">"
+  <link rel="stylesheet" href="style/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/common.css">
 </head>
 
 <body>
@@ -67,7 +72,7 @@
   </section>
 
   <!-- Product Card -->
-  <main id="cards">
+  <main id="cards" class="carousel">
     <div class="card">
       <img src="/assets/images/biscoit.png" alt="Imagem do Card" class="card-img">
       <hr class="divisor-red">
@@ -78,19 +83,14 @@
       </div>
     </div>
 
-    <div class="card-back">
-      <img src="/assets/images/biscoit2.png" alt="Imagem do Card" class="card-img-back">
+    <div class="card">
+      <img src="/assets/images/biscoit2.png" alt="Imagem do Card" class="card-img">
       <hr class="divisor-red">
       <div class="card-content">
-        <h2 class="card-title-back">Biscoito Marilan Teens Snack Chocolate Branco 80g</h2>
-        <p class="card-text-back">R$ 4,25</p>
+        <h2 class="card-title">Biscoito Marilan Teens Snack Chocolate Branco 80g</h2>
+        <p class="card-text">R$ 4,25</p>
         <a href="#" class="card-btn">COMPRAR</a>
       </div>
-    </div>
-
-    <!-- Combos Card -->
-    <div class="text-combo">
-      <h2 class="txt-combo">COMBOS</h2>
     </div>
 
     <div class="card">
@@ -103,12 +103,22 @@
       </div>
     </div>
 
-    <div class="card-back">
-      <img src="/assets/images/biscoit2.png" alt="Imagem do Card" class="card-img-back">
+    <div class="card">
+      <img src="/assets/images/biscoit2.png" alt="Imagem do Card" class="card-img">
       <hr class="divisor-red">
       <div class="card-content">
-        <h2 class="card-title-back">Biscoito Marilan Teens Snack Chocolate Branco 80g</h2>
-        <p class="card-text-back">R$ 4,25</p>
+        <h2 class="card-title">Biscoito Marilan Teens Snack Chocolate Branco 80g</h2>
+        <p class="card-text">R$ 4,25</p>
+        <a href="#" class="card-btn">COMPRAR</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/assets/images/biscoit.png" alt="Imagem do Card" class="card-img">
+      <hr class="divisor-red">
+      <div class="card-content">
+        <h2 class="card-title">Biscoito Marilan Teens Snack Bauny 80g</h2>
+        <p class="card-text">R$ 4,25</p>
         <a href="#" class="card-btn">COMPRAR</a>
       </div>
     </div>
@@ -142,8 +152,25 @@
     </div>
   </div>
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script type="text/javascript" src="js/search.js"></script>
-
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.carousel').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+        nextArrow: '<button type="button" class="slick-next">Next</button>'
+      });
+    });
+  </script>
 </body>
 
 </html>
