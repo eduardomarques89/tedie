@@ -154,8 +154,9 @@ h2 {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  width: 300px;
-  margin: 80px auto;
+  width: 50;
+  height: 50;
+  margin: 80px 20px;
   transition: transform 0.2s;
 }
 
@@ -167,11 +168,6 @@ h2 {
   width: 80%;
   object-fit: cover;
   margin-left: 30px;
-}
-
-.divisor-red {
-  border: 0;
-  border-top: 1px solid #D70D0F;
 }
 
 .card-content {
